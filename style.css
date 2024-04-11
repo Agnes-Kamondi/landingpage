@@ -121,16 +121,17 @@ body{
             background-color: rgb(250,207,207);
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
+            width: 100%;
         }
         #banner{
            display: flex;
            gap: 3px;
            background-color: rgb(250,207,207);
-           width: 250px;
+           width: 100%;
         
         }
         #image{
-            width: 170px;
+            width: 150px;
             height: 200px;
         }
         #button2{
@@ -149,16 +150,16 @@ body{
             font-size: 10px;
         }
         #div4{
-            width: 50px;
+            width: 50px
         }
         #footer{
-            margin-left: 1px;
+            margin-left: 3px;
             display: flex;
-            gap: 2px;
+            gap: 3px;
             background-color: white;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
-            width: 250px;
+            width: 97%;
         }
 
     }
