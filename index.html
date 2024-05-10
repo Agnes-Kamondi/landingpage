@@ -3,54 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baims Website page</title>
+    <title>Landing page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <section id="navbar">
-        <div id="div1">
+        <div id="nav-right">
                 <h1 id="h">biams</h1>
-                <a>Courses <img src="images/dropdown.png" class="png"></a>
-                <button id="button">
-                    <img src="images/search.png" class="png">
-                    search for anything here ...
-                </button>
+                <a>Courses <i class="fa-solid fa-caret-down" id="dropdown"></i></a>
+                <div>
+                    <input name = "inputfield"placeholder = "            Search for anything here..." type="text" id="search-input">
+                        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+
+                    
+                </div>
        </div>
-        <div id="div">
-                <a>Apply as an istructor</a> |
+        <div id="nav-left">
+                <a>Apply as an instructor</a> |
                 <a>Sign in</a>
-                <button id="button1">sign up</button>
+                <button id="sign-up-button">sign up</button>
                 
         </div>
     </section>
     <section id="banner">
-        <div id="div3">
-            <h1 id="h1">Study anytime,<br> wherever you are </h1>
+        <div id="banner-content">
+            <h1 id="heading">Study anytime,<br> wherever you are </h1>
             <p>Study any subject you want from hundreds of courses with Baims</p>
             <br>
-            <button id="button2"><img src="images/search.png" class="png">
-             What do you want to learn</button>
+            <div>
+            <input name="learn"placeholder="             What do you want to learn?" type="text" id="learn-search-input">
+            <i class="fa-solid fa-magnifying-glass" id="search-learn"></i>
+
         </div>
+         </div>
         <div>
-            <img src="images/study-preview.png" id="image">
+        <img src="images/study-preview.png" id="vectorimage">
+            
         </div>
     </section>
     <section id="footer">
-        <div id="div4">
+        <div id="wordsonfooter">
             <h1 id="count">133+</h1>
-            <p class="p">Courses & Subjects</p>
+            <p class="person">Courses & Subjects</p>
         </div>
-        <div id="div4">
+        <div id="wordsonfooter">
             <h1 id="count">304+</h1>
-            <p class="p">Instructors</p>
+            <p class="person">Instructors</p>
         </div>
-        <div id="div4">
+        <div id="wordsonfooter">
             <h1 id="count">56k+</h1>
-            <p class="p">Students</p>
+            <p class="person">Students</p>
         </div>
-        <div id="div4">
+        <div id="wordsonfooter">
             <h1 id="count">11m+</h1>
-            <p class="p">Lectures Views</p>
+            <p class="person">Lectures Views</p>
         </div>
     </section>
     
